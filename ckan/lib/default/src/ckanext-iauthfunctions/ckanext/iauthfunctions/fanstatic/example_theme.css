@@ -1,0 +1,72 @@
+.account-masthead {
+    background-color: rgb(229,219,34);
+}
+.account-masthead .account .notifications a span {
+    background-color:red;
+}
+.account-masthead .account ul li a {
+    color: rgba(148,165,122,0.6);
+}
+.account-masthead .account ul li a:hover {
+    color:rgba(20,226,216,0.7);
+    background-color:black;
+}
+
+.masthead {
+    background-color: #243f13;
+   /* background:url("/james.jpg");*/
+
+}
+.masthead .navigation .nav-pills li a:hover {
+    background-color : rgb(142,9,54);
+    color: white;
+}
+.masthead .navigation .nav-pills li.active a {
+    background-color: rgb(71,8,89);
+}
+.masthead input[type="text"]:focus {
+    -webkit-box-shadow: inset 0px 0px 2px 0px rgba(0,0,0,0.7);
+    box-shadow: inset 0px 0px 2px 0px rgba(0,0,0,0.7)
+}
+
+.box {
+    box-shadow:none;
+}
+.hero .box {
+    border:none;
+}
+.homepage .module-search .module-content {
+    color:rgb(115,204,85);
+    background-color:red;
+}
+.homepage .module-search .tags {
+    background-color:rgb(237,156,99);
+}
+.module-content:last-child {
+    padding:0px;
+}
+.homepage .module-search {
+    padding:0px;
+}
+.homepage [role="main"] {
+    border-top:10px solid rgb(0,0,0);
+}
+
+@media (min-width : 768px){
+    .hero {
+	background:url("/james.jpg");
+    }
+}
+
+.site-footer,
+body {
+    background-color:rgb(40,40,40);
+}
+.site-footer,
+.site-footer label,
+.site-footer small {
+    color:rgba(255,255,255,0.6);
+}
+.site-footer a {
+    color:rgba(255,255,255,0.6);
+}

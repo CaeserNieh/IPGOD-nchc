@@ -1,0 +1,11 @@
+{% ckan_extends %}
+
+{% block content %}
+  {{ super() }}
+
+  {% resource 'example_theme/example_theme_popover.js' %}
+
+  <button data-module="example_theme_popover" class="btn" href="#">
+    <i class="icon-info-sign"></i>
+  </button>
+{% endblock %}

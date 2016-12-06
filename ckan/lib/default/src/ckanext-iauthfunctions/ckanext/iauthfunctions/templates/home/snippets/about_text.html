@@ -1,0 +1,15 @@
+<html>
+<head>
+</head>
+
+<body>
+<p> the currently enabled plugin are :  </p>
+<ul>
+{% for plugin in g.plugins %}
+  <li>{{plugin}}</li>
+{% endfor %}
+
+</ul>
+
+</body>
+</html>

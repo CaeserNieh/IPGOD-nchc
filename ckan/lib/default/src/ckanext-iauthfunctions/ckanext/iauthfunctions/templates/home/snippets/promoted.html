@@ -1,0 +1,14 @@
+{% ckan_extends %}
+
+
+{% block home_image_caption %}
+    {{ _("ckan's data XXXXXXXXX")}}
+{% endblock %}
+
+{# replace image promoted image #}
+{% block home_image_content %}
+    <a class="media-image" href="#">
+	<img src = '/images.jpeg' alt="featured image" width="500" height="300"/>
+	
+    </a>
+{% endblock %}
